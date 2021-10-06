@@ -1,4 +1,4 @@
-function checkPermutation(string1, string2) { // O((n log n) + (m log m))
+function checkPermutation(string1, string2) { // O((n log n))
     if(string1.length != string2.length) {
         return false
     }
